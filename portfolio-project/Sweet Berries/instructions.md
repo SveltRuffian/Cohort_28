@@ -5,7 +5,7 @@ Deadline for the project is:
 
 ### Mockups
 
-[Link to Figma](https://www.figma.com/file/CLDMZlPS7KkJoZr3Azk0b9/sweet-berries-cooking-school?node-id=0%3A1) 
+[Link to Figma](https://www.figma.com/file/8WKAikBTMgFVXPRWQpYT7i/Sweet-Berries-Cooking-School---Updated?node-id=0-1&t=LijVShfU8xa6nhdh-0) 
 
 ### Getting Started Notes
 
