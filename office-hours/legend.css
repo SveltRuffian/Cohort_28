@@ -1,0 +1,87 @@
+.flex-center-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rounded-top-corners{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: thin solid black;
+    border-bottom-color: transparent;
+}
+
+.vertical-text{
+    position: absolute;
+    width: 150px;
+    transform: rotate(90deg);
+}
+
+.legend-table{
+    width: 600px;
+    height: 400px;
+   
+
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr;
+    grid-template-columns: 1fr 1.5fr 3fr 1fr 1fr 1fr 1.5fr 1fr;
+    gap: 10px;
+    /* grid-auto-columns: 1fr; */
+
+}
+
+.label-metals{
+    grid-column: 1 / 6;
+}
+
+.label-nonmetals{
+    grid-column: 7 / -1;
+}
+
+.label-alkali-metals{
+    background-color: orange;
+    grid-row: 2 / -1;
+}
+
+.label-alkaline-earth-metals{
+    background-color: yellow;
+    grid-row: 2 / -1;
+}
+
+.label-transition-metals{
+    background-color: green;
+    grid-row: 2 / -1;
+}
+
+.label-lanthanoids{
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    background-color: purple;
+}
+
+.label-actinoids{
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    background-color: pink;
+}
+
+.label-post-transition-metals{
+    background-color: coral;
+    grid-row: 2 / -1;
+}
+
+.label-metalloids{
+    background-color: orangered;
+    grid-column: 6 / 7;
+    grid-row: 1 / -1;
+}
+
+.label-reactive-nonmetals{
+    background-color: lightseagreen;
+    grid-row: 2 / -1;
+}
+
+.label-noble-gases{
+    background-color: cyan;
+    grid-row: 2 / -1;
+}
