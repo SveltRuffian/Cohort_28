@@ -1,0 +1,14 @@
+.navbar{}
+
+.navbarItems{}
+
+.navbarLinksContainer{}
+
+.navbarLinks{}
+
+.navbarLogo{}
+
+.navbarButton{
+    background: var(--black);
+    color: var(--white);
+}

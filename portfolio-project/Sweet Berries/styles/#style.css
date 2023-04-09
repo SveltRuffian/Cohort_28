@@ -15,3 +15,15 @@ body {
     background: var(--light-gray);
 }
 
+button {
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 16px;
+}
+
+button:hover {
+    background: var(--yellow);
+}
+
