@@ -1,12 +1,19 @@
 .navbar{
     height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .navbarItems{}
 
 .navbarLinksContainer{}
 
-.navbarLinks{}
+.navbarLinks{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
 
 .navbarLogo{}
 

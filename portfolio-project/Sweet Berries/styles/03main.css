@@ -1,12 +1,35 @@
 .cardContainer{
     height: 60%;
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(3,1fr);
+    gap: 24px;
 }
-
-.cardItem{}
 
 .callToAction{
     background-color: var(--yellow);
 }
 
-.cardTemplate{}
+.cardTemplate{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card__header{}
+
+.card__icon {
+    position: absolute;
+    width: 10%;
+}
+
+.card__content{}
+
+.card__title{}
+
+.card__text{}
+
+.card__footer{}
+
+.card__button{}
 
