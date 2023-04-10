@@ -1,18 +1,30 @@
-.navbar{
-    height: 10%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.body__header{
+    width: 100vw;
 }
 
-.navbarItems{}
+.navbar{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+}
 
-.navbarLinksContainer{}
+.navbarItems{
+    /* flex-basis: 30%; */
+}
 
-.navbarLinks{
+.navbarLinksContainer{
     list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    align-items: baseline;
+}
+
+.navbarLinks{
+    margin: 1em;
 }
 
 .navbarLogo{}

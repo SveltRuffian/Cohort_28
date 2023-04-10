@@ -1,0 +1,24 @@
+.bannerContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bannerItem{
+}
+
+.bannerTitle{
+    text-transform: capitalize;
+}
+
+.bannerText{
+    width: 40%;
+
+}
+
+.bannerImage{
+    /* flex-shrink: ; */
+    width: 40%;
+}
