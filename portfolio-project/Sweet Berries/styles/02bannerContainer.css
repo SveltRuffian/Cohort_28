@@ -1,9 +1,9 @@
 .bannerContainer{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-around; */
+    /* align-items: center; */
 }
 
 .bannerItem{
@@ -14,11 +14,11 @@
 }
 
 .bannerText{
-    width: 40%;
+    /* width: 40%; */
 
 }
 
 .bannerImage{
     /* flex-shrink: ; */
-    width: 40%;
+    /* width: 40%; */
 }

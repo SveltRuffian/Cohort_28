@@ -1,14 +1,14 @@
 .body__header{
-    width: 100vw;
+    /* width: 100vw; */
 }
 
 .navbar{
-    width: 100vw;
+    /* width: 100vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    align-content: space-between;
+    align-content: space-between; */
 }
 
 .navbarItems{
@@ -16,15 +16,15 @@
 }
 
 .navbarLinksContainer{
-    list-style-type: none;
+    /* list-style-type: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: baseline; */
 }
 
 .navbarLinks{
-    margin: 1em;
+    /* margin: 1em; */
 }
 
 .navbarLogo{}
