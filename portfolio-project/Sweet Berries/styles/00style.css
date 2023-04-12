@@ -28,5 +28,15 @@ button:hover {
     background: var(--yellow);
 }
 
-main{}
+.main-layout {
+    border: 10px solid limegreen;
+    min-height: 100vh;
+    min-height: 100dvh;
+
+    display: grid;
+    grid-template-areas: 
+        auto
+        1fr
+        auto;
+}
 
