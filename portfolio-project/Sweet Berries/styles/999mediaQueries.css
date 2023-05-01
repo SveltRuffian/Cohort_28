@@ -1,0 +1,48 @@
+@media screen and (max-width: 768px){
+
+    .banner-container{
+      flex-direction: column;
+    }
+
+    .banner-title{
+      font-size: 3em;
+      text-align: center;
+    }
+
+    .banner-prompt{
+      font-size: 1.25em;
+      text-align: center;
+    }
+    
+    .card-container{
+      grid-template-areas: 
+      "c1 c2"
+      "c3 c4"
+      "c5 c6";
+    }
+  
+  }
+
+  @media screen and (max-width: 390px){
+
+    .banner-container{}
+
+    .banner-title{
+      font-size: 2.25em;
+    }
+
+    .banner-prompt{
+      font-size: 1.125em;
+    }
+    
+    .card-container{
+      grid-template-areas: 
+      "c1"
+      "c2"
+      "c3"
+      "c4"
+      "c5"
+      "c6";
+    }
+  
+  }

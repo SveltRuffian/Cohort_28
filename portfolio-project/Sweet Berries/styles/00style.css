@@ -17,26 +17,25 @@ html, body {
 }
 
 button {
-    border: none;
+    outline: transparent;
     text-align: center;
     text-decoration: none;
     padding: 8px 16px;
     border-radius: 16px;
+    font-size: 1.125em;
 }
 
 button:hover {
     background: var(--yellow);
 }
 
-.main-layout {
-    border: 10px solid limegreen;
-    min-height: 100vh;
-    min-height: 100dvh;
-
+.page-layout {
+    width: 90%;
+    margin: 0 auto;
     display: grid;
+    gap: 5em;
     grid-template-areas: 
-        auto
-        1fr
-        auto;
+        "navbar"
+        "header"
+        "main";
 }
-
